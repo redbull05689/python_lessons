@@ -4,4 +4,7 @@ class some_class():
 
 
     def __int__(self):
-        return '({})'.format(len(self.text))
+        return '({})'.format(self.text)
+
+#  Не понимаю как это делать
+# "При преобразовании объекта в символ результатом является первый символ в тексте."
